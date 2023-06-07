@@ -1,4 +1,5 @@
 {
+  "homepage":"http://muhammedthasleem.github.io/my-portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +37,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammedthasleem/my-portfolio.git"
+  },
+  "author": "muhammed thasleem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammedthasleem/my-portfolio/issues"
   }
+
 }
